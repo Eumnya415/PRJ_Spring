@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.MatrixVariable;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
+//@Controller
 @RequestMapping("/home")
 public class Example03Controller {
 
