@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-@Controller
+//@Controller
 public class Example04Controller {
 
     @GetMapping("/exam04")
