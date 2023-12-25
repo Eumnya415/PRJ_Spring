@@ -77,6 +77,15 @@ public class BookController {
 
     /*@GetMapping("/add")
     public String requestAddBookForm(Book book) {
+<<<<<<< HEAD
+=======
+        return "addBook";
+    }
+    */
+
+    @GetMapping("/add")
+    public String requestAddBookForm(@ModelAttribute("NewBook") Book book) {
+>>>>>>> 732d73dfd0f7b51368597ae7bc4bedc8bc296ff5
         return "addBook";
     }
     */

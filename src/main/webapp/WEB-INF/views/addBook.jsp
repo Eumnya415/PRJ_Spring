@@ -25,7 +25,11 @@
 
     <div class="container">
         <div class="float-right">
+<<<<<<< HEAD
             <form:form action="${pageContext.request.contextPath}/mymber" method="POST">
+=======
+            <form:form action="${pageContext.request.contextPath}/logout" method="POST">
+>>>>>>> 732d73dfd0f7b51368597ae7bc4bedc8bc296ff5
                 <input type="submit" class="btn btn-sm btn-success" value="Logout"/>
             </form:form>
         </div>
